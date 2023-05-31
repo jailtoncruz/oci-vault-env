@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://codeclimate.com/github/jailtoncruz/oci-vault-env/maintainability"><img src="https://api.codeclimate.com/v1/badges/ea0c5722eda076aa55ad/maintainability" /></a>
+  <a href="https://codeclimate.com/github/jailtoncruz/oci-vault-env/test_coverage"><img src="https://api.codeclimate.com/v1/badges/ea0c5722eda076aa55ad/test_coverage" /></a>
+</p>
+
 # OCI Vault Environment
 
 ## Description
