@@ -39,11 +39,12 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: '16'
-    - run: npm install -g yarn
-    - run: yarn install
-    - run: yarn build
-    - uses: paambaati/codeclimate-action@v2.2.4
+        
+    - run: npm install
+    - run: npm run build
+    - uses: paambaati/codeclimate-action@v4.0.0
       env:
         CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
       with:
-        coverageCommand: yarn coverage
+        coverageCommand: npm run coverage
+        debug: true
