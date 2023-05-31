@@ -4,4 +4,4 @@ import { loadEnvironment } from './application/usecases/load-environments';
 export {
   loadEnvironment,
   exportFile
-}
+};
