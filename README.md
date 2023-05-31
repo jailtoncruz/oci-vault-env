@@ -39,12 +39,12 @@ npm run test
 
 ## Author
 
-👤 **Jailton Cruz <jailtoncruz01@gmail.com> (https://www.linkedin.com/in/jailton-cruz/)**
+👤 **Jailton Cruz <jailtoncruz01@gmail.com> [LinkedIn](https://www.linkedin.com/in/jailtoncruz/)**
 
 * Github: [@jailtoncruz](https://github.com/jailtoncruz)
 
 
 ## 📝 License
 
-Copyright © 2022 [Jailton Cruz <jailtoncruz01@gmail.com> (https://www.linkedin.com/in/jailton-cruz/)](https://github.com/jailtoncruz).<br />
+Copyright © 2022 [Jailton Cruz <jailtoncruz01@gmail.com> (https://www.linkedin.com/in/jailtoncruz/)](https://github.com/jailtoncruz).<br />
 This project is [MIT](https://github.com/jailtoncruz/oci-vault-env/blob/main/LICENSE) licensed.
