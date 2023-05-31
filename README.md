@@ -46,5 +46,5 @@ npm run test
 
 ## 📝 License
 
-Copyright © 2022 [Jailton Cruz <jailtoncruz01@gmail.com> (https://www.linkedin.com/in/jailtoncruz/)](https://github.com/jailtoncruz).<br />
+Copyright © 2022 [Jailton Cruz](https://www.linkedin.com/in/jailtoncruz/) <jailtoncruz01@gmail.com> .<br />
 This project is [MIT](https://github.com/jailtoncruz/oci-vault-env/blob/main/LICENSE) licensed.
