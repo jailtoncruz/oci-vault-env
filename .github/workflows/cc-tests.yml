@@ -42,9 +42,9 @@ jobs:
         
     - run: npm install
     - run: npm run build
+    - run: npm run test
     - uses: paambaati/codeclimate-action@v4.0.0
       env:
         CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
       with:
         coverageCommand: npm run coverage
-        debug: true
