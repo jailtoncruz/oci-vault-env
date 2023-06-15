@@ -1,4 +1,4 @@
-name: build
+name: Code Climate Test Coverage
 on:
   push:
     branches:
@@ -42,12 +42,11 @@ jobs:
         
     - run: npm install
     - run: npm run build
-    - run: npm run test
     
     - name: Test & publish code coverage
       uses: paambaati/codeclimate-action@v4.0.0
       env:
-        CC_TEST_REPORTER_ID: <code_climate_reporter_id>
+        CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
       with:
-        coverageCommand: npm run coverage
+        coverageCommand: npm run test
         debug: true
