@@ -1,5 +1,5 @@
 import { getProvider } from './get-provider'
-import { getSecrets } from './get-secret'
+import { getSecrets } from './get-secrets'
 
 export async function loadEnvironment(compartmentId: string, vaultId: string) {
   const provider = getProvider()
