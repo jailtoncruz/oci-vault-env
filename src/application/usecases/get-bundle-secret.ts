@@ -18,8 +18,8 @@ export async function getBundleSecret(secret: VaultModel.Secret) {
   }
 
   return {
-    name: secret.secretName,
     id: secret.id,
+    name: secret.secretName,
     value,
   }
 }
