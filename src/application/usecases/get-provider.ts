@@ -1,6 +1,6 @@
-import { ConfigFileAuthenticationDetailsProvider } from "oci-common";
+import { ConfigFileAuthenticationDetailsProvider } from 'oci-common'
 
 export function getProvider() {
-  const provider = new ConfigFileAuthenticationDetailsProvider();
+  const provider = new ConfigFileAuthenticationDetailsProvider()
   return provider
 }
