@@ -1,5 +1,5 @@
 export interface EnvSecret {
-  id: string,
-  name: string,
+  id: string
+  name: string
   value?: string
 }

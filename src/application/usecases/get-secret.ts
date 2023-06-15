@@ -1,15 +1,16 @@
+import { AuthenticationDetailsProvider } from 'oci-common'
 import { VaultsClient, models } from 'oci-vault'
 import { EnvSecret } from '../domain/EnvSecret'
 import { getBundleSecret } from './get-bundle-secret'
-import { getProvider } from './get-provider'
 
 export async function getSecrets(
+  provider: AuthenticationDetailsProvider,
   compartmentId: string,
   vaultId: string,
 ): Promise<EnvSecret[]> {
-  const authenticationDetailsProvider = getProvider()
-
-  const vaultsClient = new VaultsClient({ authenticationDetailsProvider })
+  const vaultsClient = new VaultsClient({
+    authenticationDetailsProvider: provider,
+  })
 
   const response = await vaultsClient
     .listSecretsResponseIterator({

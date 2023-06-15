@@ -1,6 +1,9 @@
 import { ConfigFileAuthenticationDetailsProvider } from 'oci-common'
 
-export function getProvider() {
-  const provider = new ConfigFileAuthenticationDetailsProvider()
+export function getProvider(configPath?: string, profile?: string) {
+  const provider = new ConfigFileAuthenticationDetailsProvider(
+    configPath,
+    profile,
+  )
   return provider
 }
